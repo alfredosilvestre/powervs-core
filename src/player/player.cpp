@@ -535,8 +535,10 @@ void Player::take()
             audioThreadPreview->start();
         }
 #endif
+#ifdef DECKLINK
         if(deckLinkOutput != NULL)
             deckLinkOutput->startPlayback(this);
+#endif
     }
 }
 

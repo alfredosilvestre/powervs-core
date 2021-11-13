@@ -73,7 +73,7 @@ If you have a licensed copy of Visual Studio 2010, install it and then jump to t
 
 Open the [PowerVSCore.pro](https://github.com/alfredosilvestre/powervs-core/tree/master/PowerVSCore.pro) file in Qt Creator and build using the standard process.
 
-This project is used as a base for the [PowerVS](https://github.com/alfredosilvestre/powervs) GUI and [MXF Trimmer](https://github.com/alfredosilvestre/powervs) but the idea of this project was also to create a .dll file in order to be used on other projects, but it is still incomplete.
+This project is used as a base for the [PowerVS](https://github.com/alfredosilvestre/powervs) GUI and [MXF Trimmer](https://github.com/alfredosilvestre/mxf-trimmer) but the idea of this project was also to create a .dll file in order to be used on other projects, but it is still incomplete.
 
 ## 🔧 Running the tests <a name="tests"></a>
 Sadly, no automated tests were created yet since you need a physical card to test all the functionalities, usually you should have a folder with several test video files and run them through the [PowerVS](https://github.com/alfredosilvestre/powervs) GUI.
